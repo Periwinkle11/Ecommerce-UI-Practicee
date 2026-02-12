@@ -1,0 +1,364 @@
+body{
+    margin: 0px;
+    font-family: arial;
+}
+/*navbar*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 60px;
+    width: 135px;
+}
+/*amazonlogo*/
+.amazonlogo{
+    background-image: url("amazon_logo.png");
+    height: 60px;
+    width: 130px;
+    background-size: cover;
+    padding-bottom: 6px;
+    display: inline-block;
+    justify-content: center;
+}
+.border {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    
+}
+.logo-border:hover {
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 5%;
+}
+.dot-in{
+    font-size: 16px;
+    color: white;
+    margin-left: 120px;
+    height: 60px;
+    display: flex;
+    margin-top: 1.5em;
+}
+/*address*/
+.address {
+    height: 60px;
+    width: 135;
+    color: white;
+    font-size: 12px;
+    display: inline-flex;
+    margin-left: 25px;
+}
+.location-logo{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+#location-id{
+    align-items: flex-end;
+}
+.line1{
+    height: auto;
+    width: auto;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(167, 171, 171);
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+.line2{
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 545;
+}
+.lines:hover {
+    border: 1px solid white;
+    height: auto;
+    border-radius: 5%;
+}
+/*search bar*/
+.search-container{
+    margin-left: 25px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    height: 38px;
+    align-items: center;
+}
+.searchbar input {
+    height: 38px;
+    width: 415px;
+    border: none;
+    outline: none;
+}
+.choose{
+    width: 60px;
+    height: 38px;
+    background-color: rgb(177, 177, 177);
+    border: none;
+}
+.choose:focus-within{
+    border: 2px solid rgb(244, 169, 19);
+    height: 38px;
+    border-radius: 5%;
+}
+.search{
+    width: 45px;
+    height: 38px;
+    background-color: rgb(247, 173, 26);
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.search:focus-within{
+    border: 2px solid rgb(244, 169, 19);
+    height: 38px;
+    border-radius: 5%;
+}
+.search-container:focus-within{
+    border: 2px solid rgb(244, 169, 19);
+    height: 38px;
+    border-radius: 5%;
+}
+/*list*/
+.container{
+    margin-left: 15px;
+    display: inline;
+    margin-bottom: 5px;
+}
+.wlc{
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+.list{
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+.container-2{
+    margin-left: 15px;
+    height: 53.3px;
+   align-items: center;
+   
+}
+.option-1{
+    margin-bottom: 0;
+    font-size: 12px;
+    margin-top: 13px;
+}
+.option-2{
+    margin-top: 0;
+}
+/*panel*/
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #232f3e;
+    font-size: 14px;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.line3{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+p:hover{
+    border: 1px solid white;
+    height: 39px;
+    border-radius: 5%;
+}
+/*main page*/
+.main-page{
+    background-image: url("Flight_PC-Hero-Template_GW-VX_3000x1200._CB795825459_.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;   
+}
+.main-page2{
+    background-color: rgb(220, 218, 218);
+    height:auto;
+    width: 100%;
+    justify-content: space-evenly;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+}
+.box-img1{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.box2{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+}
+.box-img2{
+    height: 276px;
+    padding: 20px 15px 15px;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+}
+.box-img3{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.box4{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+}
+.box-img4{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.box5{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+    margin-top: 20px;
+}
+.box-img5{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.box6{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+    margin-top: 20px;
+}
+.box-img6{
+    height: 276px;
+    padding: 20px ;
+    background-repeat: no-repeat;
+}
+.box7{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+    margin-top: 20px;
+}
+.box-img7{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.box8{
+    background-color: white;
+    height: 420px;
+    width: 300px;
+    margin-top: 20px;
+}
+.box-img8{
+    height: 276px;
+    padding: 20px 15px 0;
+    background-repeat: no-repeat;
+}
+.options{
+    color: #2162a1;
+}
+.ending{
+    color: white;
+    background-color: #37475A;
+    height: 49px;
+    text-align: center;
+    font-size: 14px;
+}
+.line4{
+   padding-top: 14px;
+}
+/*footer*/
+.ending2{
+    background-color: #232f3e;
+    height: 294px;
+    color: white;
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+ul{
+    list-style-type: none;
+}
+.header1{
+    font-weight: 700;
+    margin-top: 0;
+}
+.line5{
+    font-weight: 400;
+    color: #DDD;
+    font-family: inherit;
+    font-size: 14px;
+}
+.header2{
+    font-weight: 700;
+    margin-top: 0;
+}
+.line6{
+    font-weight: 400;
+    color: #DDD;
+    font-family: inherit;
+    font-size: 14px;
+}
+.header3{
+    font-weight: 700;
+    margin-top: 0;
+}
+.line7{
+    font-weight: 400;
+    color: #DDD;
+    font-family: inherit;
+    font-size: 14px;
+}
+.header4{
+    font-weight: 700;
+    margin-top: 0;
+}
+.line8{
+    font-weight: 400;
+    color: #DDD;
+    font-family: inherit;
+    font-size: 14px;
+}
+.end{
+    height: 76px;
+    background-color: #131A22;
+    color: #C1C1C1;
+    font-size: 13px;
+    text-align: center;
+}
+.line9{
+    padding-top: 10px;
+}
+.line10{
+    padding-top: 10px;
+}
